@@ -48,6 +48,10 @@ public class Main {
             Thread.currentThread().interrupt();
         }
 
+        if (zonaDeCarga.estaVacia()){
+            System.out.println("[Zona de carga vacía]");
+         }
+
         System.out.println();
         System.out.println(
                 "Todos los pedidos han sido entregados correctamente"

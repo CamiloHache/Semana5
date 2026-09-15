@@ -1,5 +1,7 @@
 package cl.duoc.models;
 
+
+
 public class Repartidor implements Runnable{
     private String nombre;
     private ZonaDeCarga zonaDeCarga;

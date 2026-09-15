@@ -22,4 +22,8 @@ public class ZonaDeCarga {
         }
         return pedidos.remove(0);
     }
+
+    public synchronized boolean estaVacia() {
+        return pedidos.isEmpty();
+    }
 }
