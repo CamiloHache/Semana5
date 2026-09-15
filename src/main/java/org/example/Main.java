@@ -20,7 +20,6 @@ public class Main {
         Pedido pedido3 = new Pedido(3,"Ñuñoa",EstadoPedido.PENDIENTE);
         Pedido pedido4 = new Pedido(4,"Recoleta",EstadoPedido.PENDIENTE);
         Pedido pedido5 = new Pedido(5,"Las Condes",EstadoPedido.PENDIENTE);
-        Pedido pedido6 = new Pedido(6,"La Florida",EstadoPedido.PENDIENTE);
 
         //Agregamos a la zona de carga
         zonaDeCarga.agregarPedido(pedido1);
@@ -28,7 +27,6 @@ public class Main {
         zonaDeCarga.agregarPedido(pedido3);
         zonaDeCarga.agregarPedido(pedido4);
         zonaDeCarga.agregarPedido(pedido5);
-        zonaDeCarga.agregarPedido(pedido6);
         System.out.println();
 
         //Acá creamos a los repartidores

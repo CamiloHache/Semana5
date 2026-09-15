@@ -35,6 +35,10 @@ public class Pedido {
         this.estado = estado;
     }
 
+    public void setEstado(String nuevoEstado) {
+        this.estado = EstadoPedido.valueOf(nuevoEstado);
+    }
+
     @Override
     public String toString() {
         return "Pedido #" + id
